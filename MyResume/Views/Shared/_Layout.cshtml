@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sheng-Huai Change's Homepage-</title>
+    <link rel="shortcut icon" type="image/x-icon" href="@Url.Content("~/images/shorticon.png")" />
+
+    <!--Google web fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600,700,600italic,200,200italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="@Url.Content("~/css/bootstrap.min.css")" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/animate.css")" />
+
+    <!-- font awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="@Url.Content("~/css/skillset.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/panel.css")">
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/owl.carousel.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/owl.transitions.css")" />
+    <link rek="stylesheet" type="text/css" href="@Url.Content("~/css/owl.theme.css")" />
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/style.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/custom.css")" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+    <link rel="stylesheet" href="@Url.Content("~/css/slick.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/slick-theme.css")" />
+
+    <style type="text/css">
+        .div_right_bottom{
+            width:100px;
+            float:right;
+            position:fixed;
+            right:0px;
+            bottom: 5%;
+            z-index:20;
+            _position:absolute;
+        }
+    </style>
+</head>
+<body>
+    @RenderBody()
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+      $('a.abgne_gotoheader1').click(function(){
+        var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+        $body.animate({
+          scrollTop: $("#service-area").offset( ).top
+        }, 600);
+
+        return false;
+      });
+
+        $("#birthday_btn").on('click', function () {
+            $("#birthday_content").toggle();
+        });
+
+        $("#education_btn").on('click', function () {
+            $("#education_content").toggle();
+        });
+
+        $("#experience_btn").on('click', function () {
+            $("#experience_content").toggle();
+        });
+
+        $("#tutor_btn").on('click', function () {
+            $("#tutor_content").toggle();
+        });
+
+        $("#developmenttool_btn").on('click', function () {
+            $("#developmenttool_content").toggle();
+        });
+
+        $("#systemmanagement_btn").on('click', function () {
+            $("#systemmanagement_content").toggle();
+        });
+
+        $("#others_btn").on('click', function () {
+            $("#others_content").toggle();
+        });
+
+    });
+</script>
+    <!-- 下滑功能結束 -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" />
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="@Url.Content("~/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/js/wow.js")"></script>
+    <script src="@Url.Content("~/js/jquery.nicescroll.js")"></script>
+    <script src="@Url.Content("~/js/jquery.easing.min.js")"></script>
+    <script src="@Url.Content("~/js/jquery.mixitup.min.js")"></script>
+    <script src="@Url.Content("~/js/imagesloaded.pkgd.min.js")"></script>
+    <script src="@Url.Content("~/js/skillset.js")"></script>
+    <script src="@Url.Content("~/js/owl.carousel.js")"></script>
+    <script src="@Url.Content("~/js/scrollupto.js")"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
+    <script src="@Url.Content("~/js/slick.js")"></script>
+    <script src="@Url.Content("~/js/data.js")"></script>
+    <script src="@Url.Content("~/js/main.js")"></script>
+
+   
+</html >
